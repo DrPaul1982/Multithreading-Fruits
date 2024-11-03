@@ -2,8 +2,6 @@ package src.app;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static java.lang.Thread.currentThread;
-
 public class DataHandler {
 
     String[] fruits = new DataRepository().getData();
